@@ -1,38 +1,41 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: rgb(238, 238, 238);
 }
 
 .App-header {
+  background-image: url(images/chalkboard.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  width: 700px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Sourse {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.Galerry {
+  padding: 5px 10px;
+  margin: 4px;
+  border-radius: 6px;
+  display: inline-block;
+  box-shadow: 1px 1px 8px black;
+  transition: 0.2s;
+}
+h3 {
+  text-align: center;
 }
